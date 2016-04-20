@@ -1,0 +1,44 @@
+'.source.apex':
+  'Apex Trigger Handler':
+    'prefix': 'apextriggerhandler'
+    'body': """
+        public with sharing class ${1:ObjectName}TriggerHandler {
+
+            // On Before Insert
+            public void OnBeforeInsert(List<${2:ObjectApiName}> newRecords) {
+
+        	}
+
+            // On After Insert
+            public void OnAfterInsert(List<${2:ObjectApiName}> newRecords) {
+
+            }
+
+            // On Before Update
+            public void OnBeforeUpdate(List<${2:ObjectApiName}> oldRecords, List<${2:ObjectApiName}> newRecords, Map<Id, ${2:ObjectApiName}> newRecordsMap) {
+
+            }
+
+            // After Update
+            public void OnAfterUpdate(List<${2:ObjectApiName}> oldRecords, List<${2:ObjectApiName}> newRecords, Map<Id, ${2:ObjectApiName}> newRecordsMap) {
+
+            }
+
+            // On Before Delete
+            public void OnBeforeDelete(List<${2:ObjectApiName}> deletedRecords, Map<Id, ${2:ObjectApiName}> deletedRecordsMap) {
+
+            }
+
+            // On After Delete
+            public void OnAfterDelete(List<${2:ObjectApiName}> deletedRecords, Map<Id, ${2:ObjectApiName}> deletedRecordsMap) {
+
+            }
+
+            // On Undelete
+            public void OnUnDelete(List<${2:ObjectApiName}> undeletedRecords) {
+
+            }
+
+        }
+
+    """

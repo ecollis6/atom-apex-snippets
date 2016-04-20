@@ -1,0 +1,9 @@
+'.source.apex':
+  'Apex Class':
+    'prefix': 'apexclass'
+    'body': """
+        public class ${1:ClassName} {
+
+        }
+
+    """
