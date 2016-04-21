@@ -1,7 +1,7 @@
 {
   "name": "apex-snippets",
   "main": "./lib/apex-snippets",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A set of Apex snippets for SalesForce that follow best practice.",
   "keywords": [],
   "repository": {
