@@ -4,7 +4,7 @@ Apex code snippets for Atom IDE. Work in progress - this has not been published 
 ##Installation
 Run the following command to install:
 ```
-apm install atom-apex-snippets
+apm install apex-snippets
 ```
 ##Snippets
 ###`apexclass`
