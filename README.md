@@ -1,5 +1,5 @@
 #Atom Apex Snippets
-Apex code snippets for Atom IDE. Work in progress - this has not been published to Atom Package Manager yet.
+Apex code snippets for Atom IDE. This is a work in progress. I will publish to APM regularly as I add new snippets.
 
 ##Installation
 Run the following command to install:
