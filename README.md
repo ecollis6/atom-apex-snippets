@@ -1,6 +1,11 @@
 #Atom Apex Snippets
 Apex code snippets for Atom IDE. Work in progress - this has not been published to Atom Package Manager yet.
 
+##Installation
+Run the following command to install:
+```
+apm install atom-apex-snippets
+```
 ##Snippets
 ###`apexclass`
 ```
@@ -95,6 +100,30 @@ public with sharing class ObjectNameTriggerHandler {
 
     // On Undelete
     public void OnUnDelete(List<ObjectApiName> undeletedRecords) {
+
+    }
+
+}
+```
+
+###`apextestclass`
+```
+@isTest(seeAllData=false)
+public class TestClassName {
+
+    static testMethod void testMethodName() {
+
+         Profile p = [select id from profile where name='Standard User'];
+         User u = new User(alias = 'standt', email='standarduser@testorg.com',
+            emailencodingkey='UTF-8', lastname='Testing', languagelocalekey='en_US',
+            localesidkey='en_US', profileid = p.Id,
+            timezonesidkey='America/Los_Angeles', username='standarduser@testorg.com');
+
+        test.startTest();
+        system.runAs(u) {
+            //start writing your test
+        }
+        test.stopTest();
 
     }
 
