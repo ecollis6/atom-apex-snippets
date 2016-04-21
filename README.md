@@ -100,6 +100,5 @@ public with sharing class ObjectNameTriggerHandler {
 
 }
 ```
-
-
-#
+##Contributing
+Contributions are welcome! Please raise an issue or submit a pull request.
