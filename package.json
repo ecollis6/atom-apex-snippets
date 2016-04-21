@@ -1,22 +1,20 @@
 {
   "name": "apex-snippets",
   "main": "./lib/apex-snippets",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A set of Apex snippets for SalesForce that follow best practice.",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ecollis6/atom-apex-snippets"
+    "type": "git",
+    "url": "git+https://github.com/ecollis6/atom-apex-snippets"
   },
   "bugs": {
-      "url": "https://github.com/ecollis6/atom-apex-snippets/issues"
+    "url": "https://github.com/ecollis6/atom-apex-snippets/issues"
   },
   "readmeFilename": "README.md",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
