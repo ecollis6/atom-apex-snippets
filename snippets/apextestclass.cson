@@ -1,0 +1,26 @@
+'.source.apex':
+  'Apex Test Class':
+    'prefix': 'apextestclass'
+    'body': """
+        @isTest(seeAllData=false)
+        public class ${1:TestClassName} {
+
+            static testMethod void ${2:testMethodName}() {
+
+                 Profile p = [select id from profile where name='Standard User'];
+                 User u = new User(alias = 'standt', email='standarduser@testorg.com',
+                    emailencodingkey='UTF-8', lastname='Testing', languagelocalekey='en_US',
+                    localesidkey='en_US', profileid = p.Id,
+                    timezonesidkey='America/Los_Angeles', username='standarduser@testorg.com');
+
+                test.startTest();
+                system.runAs(u) {
+                    ${3://start writing your test}
+                }
+                test.stopTest();
+
+            }
+
+        }
+
+    """
