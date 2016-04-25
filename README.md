@@ -1,7 +1,7 @@
 #Atom Apex Snippets
 Apex code snippets for Atom IDE. This is a work in progress. I will publish to APM regularly as I add new snippets. 
 
-**[View on Atom.io](https://atom.io/packages/atom-force)**
+**[View on Atom.io](https://atom.io/packages/apex-snippets)**
 
 ##Installation
 Run the following command to install:
